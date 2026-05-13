@@ -5,6 +5,9 @@
 
 using namespace std;
 
+/*
+This class holds incoming buy and sell orders.
+*/
 class OrderBook {
 public:
 	void placeOrder(int price, int qty, string buySell);

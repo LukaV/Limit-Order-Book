@@ -2,7 +2,9 @@
 #include "OrderBook.h"
 #include "TradeLog.h"
 
-
+/*
+Matches compatible buy and sell orders.
+*/
 class OrderMatcher {
 	OrderBook& orderBook;
 	TradeLog& tradeLog;

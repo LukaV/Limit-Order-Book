@@ -6,6 +6,13 @@
 
 using namespace std;
 
+/*
+This method pushes order to either the buy or sell vector
+
+price is the price at which the user wants to place the order at.
+qty is the amount of the item to purchase.
+buySell is the position the user wants to enter.
+*/
 void OrderBook::placeOrder(int price, int qty, string buySell) {
 	static int nextId = 0;
 	int id = nextId++;

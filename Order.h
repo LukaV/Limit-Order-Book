@@ -4,6 +4,9 @@
 
 using namespace std;
 
+/*
+This struct holds properties of an Order for a trade.
+*/
 struct Order {
 	int id;
 	int price;
